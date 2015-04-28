@@ -1,15 +1,15 @@
 <!doctype html>
-<html lang="en" ng-app='courseRoster'>
+<!-- <html lang="en" ng-app='courseRoster'> -->
 <head>
     <meta charset="UTF-8">
     <title>Course Roster</title>
     <script src='lib/angular.js'></script>
     <script src='lib/angular-ui-router.js'></script>
     <script src='app.js'></script>
-    <script src='controllers/CoursesController.js'></script>
-    <script src='controllers/StudentsController.js'></script>
-    <script src='services/CoursesFactory.js'></script>
-    <script src='services/UtilitiesFactory.js'></script>
+    <!-- // <script src='controllers/CoursesController.js'></script>
+    // <script src='controllers/StudentsController.js'></script>
+    // <script src='services/CoursesFactory.js'></script>
+    // <script src='services/UtilitiesFactory.js'></script> -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
 </head>
@@ -17,6 +17,22 @@
     <header>
         <div class="title">Course Roster</div>
     </header>
+    <div class='container' ng-app="choreApp">
+        <div ng-controller="ChoreCtrl">
+
+            <input type="text" ng-model="ctrlGreeting"><br> -->
+
+
+            <div drink flavor="ctrlGreeting"></div>
+        </div>
+
+
+
+        <!-- <div ng-controller="ChoreCtrl">
+        <kid done="logChore(someChore)"></kid>
+
+
+    </div> -->
     <div class='container'>
         <div ui-view></div>
     </div>
